@@ -1,3 +1,74 @@
-body {
-    border: 1px solid red;
+html, body {
+/*    height: 100%;  */
+    background-color: #580358;
+    color: #d0aef5;
 }
+.container {
+    display: grid;
+    justify-content: center;
+}
+.content {
+    display: grid;
+    width: 500px;
+    text-align: center;
+}
+
+
+.screen-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list-item {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    cursor: pointer;
+}
+.item-title {
+    text-align: left;
+}
+.block-button-add {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.add {
+    background-color: #843398;
+    border: none;
+    padding: 20px 40px;
+    font-size: medium;
+}
+
+
+.screen-2 {
+
+}
+.form-add {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+.form-button {
+    margin-top: 10px;
+}
+.cancel {
+    background-color: #570073;
+    border: none;
+    padding: 20px 40px;
+    font-size: medium;
+}
+
+.active {
+    border: 3px solid #cc00ff;
+}
+.hide {
+    display: none;
+}
+
+
+/*
+div {
+    border: 1px solid black;
+}
+*/
