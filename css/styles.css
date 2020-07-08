@@ -6,6 +6,7 @@ html, body {
 .container {
     display: grid;
     justify-content: center;
+    padding-top: 100px;
 }
 .content {
     display: grid;
@@ -49,6 +50,12 @@ html, body {
     justify-content: center;
     align-content: center;
 }
+.inputAdd {
+    background-color: #464646;
+    color: #ffffff;
+    padding: 10px;
+    font-size: medium;
+}
 .form-button {
     margin-top: 10px;
 }
@@ -60,15 +67,23 @@ html, body {
 }
 
 .active {
-    border: 3px solid #cc00ff;
+    border: 2px solid #cc00ff;
+    cursor: pointer;
+    animation: 2s linear 0s infinite alternate pulse;
 }
 .hide {
     display: none;
 }
 
 
-/*
-div {
-    border: 1px solid black;
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px rgb(29, 1, 29)
+    }
+    50% {
+        box-shadow: 0 0 10px rgb(167, 7, 167)
+    }
+    100% {
+        box-shadow: 0 0 15px rgb(255, 0, 255)
+    }
 }
-*/
